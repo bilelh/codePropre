@@ -1,6 +1,6 @@
 package ex2;
 
-/** ReprÃ©sente un compte bancaire de type compte courante (type=CC) ou livret A (type=LA)
+/** Représente un compte bancaire de type compte courante (type=CC) ou livret A (type=LA)
  * @author DIGINAMIC
  */
 public class CompteBancaire {
@@ -8,10 +8,10 @@ public class CompteBancaire {
 	/** solde : solde du compte */
 	private double solde;
 	
-	/** decouvert : un dÃ©couvert est autorisÃ© seulement pour les comptes courants */
+	/** decouvert : un découvert est autorisé seulement pour les comptes courants */
 	private double decouvert;
 	
-	/** tauxRemuneration : taux de rÃ©munÃ©ration dans le cas d'un livret A */
+	/** tauxRemuneration : taux de rémunération dans le cas d'un livret A */
 	private double tauxRemuneration;
 	
 	/** Le type vaut soit CC=Compte courant, ou soit LA=Livret A */
@@ -29,11 +29,11 @@ public class CompteBancaire {
 		this.decouvert = decouvert;
 	}
 	
-	/** Ce constructeur est utilisÃ© pour crÃ©er un compte de type Livret A
+	/** Ce constructeur est utilisé pour créer un compte de type Livret A
 	 * @param type = LA
-	 * @param solde reprÃ©sente le solde du compte
-	 * @param decouvert  reprÃ©sente le dÃ©couvert autorisÃ©
-	 * @param tauxRemuneration  reprÃ©sente le taux de rÃ©munÃ©ration du livret A
+	 * @param solde représente le solde du compte
+	 * @param decouvert  représente le découvert autorisé
+	 * @param tauxRemuneration  représente le taux de rémunération du livret A
 	 */
 	public CompteBancaire(String type, double solde, double decouvert, double tauxRemuneration) {
 		super();
