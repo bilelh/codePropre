@@ -7,6 +7,11 @@ public class FermeReptile extends Zone {
 
 	/** Masse moyenne en kg de nourriture consommée par 1 reptile */
 	private static final double MASSE_NOURRITURE = 0.1;
+	
+	public FermeReptile() {
+		super();
+	}
+	
 
 	@Override
 	public double getPoids() {
